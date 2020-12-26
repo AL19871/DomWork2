@@ -1,5 +1,0 @@
-growth_ = input('Введите рост в "см":')
-weigth_ = input('Введите вес в "кг":')
-bmi_ = round(float(weigth_) / float(growth_) * 100 / float(growth_) * 100)
-print('Ваш индекс массы тела: ' + str(bmi_))
-print('10' + '=' * (bmi_ - 10) + '|' + '=' * (60 - bmi_) + '60')
